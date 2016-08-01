@@ -18,7 +18,6 @@ alias gl='git pull'
 alias gpr='git pull --rebase'
 alias gpp='git pull && git push'
 alias gup='git fetch && git rebase'
-alias gp='git push'
 alias gpo='git push origin'
 alias gdv='git diff -w "$@" | vim -R -'
 alias gc='git commit -v'
@@ -43,6 +42,7 @@ alias gta="git tag -a"
 alias gtd="git tag -d"
 alias gtl="git tag -l"
 alias gra='git commit --amend --no-edit'
+alias undeployed="git rev-list $(curl -sI www.statuspage.io | grep -i X-StatusPage-Version | sed -e 's/X-StatusPage-Version: //' | tr -d '\r\n' | awk '{print $1"..HEAD"}')"
 
 # StatusPage
 alias rc='foreman run bin/rails c'
