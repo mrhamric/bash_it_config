@@ -9,6 +9,7 @@ alias ll='ls -al'
 alias l='ls -a'
 alias l1='ls -1'
 alias spw='cd ~/workspace/status-page/status-page-web'
+alias sp='cd ~/workspace/status-page'
 
 # Access Airport
 alias airport='/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport'
