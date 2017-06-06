@@ -52,7 +52,7 @@ alias tdl='tail -5000f log/development.log'
 alias ttl='tail -5000f log/test.log'
 alias cap='bundle exec cap'
 alias ss='bin/spring stop'
-alias tst='foreman run bundle exec ruby'
+alias tst='bundle exec ruby -Itest'
 alias es="/Users/matt/Documents/elasticsearch-2.3.2/bin/elasticsearch ; exit;"
 
 
