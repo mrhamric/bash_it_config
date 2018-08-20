@@ -7,9 +7,9 @@ alias ls='ls -lG'
 alias la='ls -AF'       # Compact view, show hidden
 alias ll='ls -al'
 alias l='ls -a'
-alias l1='ls -1'
-alias spw='cd ~/workspace/status-page/status-page-web'
-alias sp='cd ~/workspace/status-page'
+alias presto='cd ~/workspace/presto-doctor/prestoverify/'
+alias lp='cd ~/workspace/legalpad'
+alias novo='cd ~/workspace/legalpad/novo'
 
 # Access Airport
 alias airport='/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport'
@@ -42,10 +42,6 @@ alias irc="$IRC_CLIENT"
 
 alias rb='ruby'
 alias be='bundle exec'
-
-# Pianobar can be found here: http://github.com/PromyLOPh/pianobar/
-
-alias piano='pianobar'
 
 alias ..='cd ..'         # Go up one directory
 alias ...='cd ../..'     # Go up two directories
