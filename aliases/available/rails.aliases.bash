@@ -11,6 +11,7 @@ alias ra='rails application'
 alias migpare='rake db:migrate && RAILS_ENV=test rake db:migrate'
 alias rollback='rake db:rollback && RAILS_ENV=test rake db:rollback'
 alias rake='bundle exec rake'
+alias build="bundle exec rails test 'test/**/*_test.rb'"
 
 alias sc='script/console'
 alias restartapp='touch tmp/restart.txt'

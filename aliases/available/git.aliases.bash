@@ -16,8 +16,7 @@ alias gb='git branch'
 alias gcount='git shortlog -sn'
 alias gdel='git branch -D'
 alias gra='git commit --amend --no-edit'
-alias catchup='git pull upstream master && git push origin master'
-alias cu='git pull upstream master --rebase && git push origin master'
+alias cu='git pull upstream xyz --rebase && git push origin xyz'
 
 case $OSTYPE in
   darwin*)
