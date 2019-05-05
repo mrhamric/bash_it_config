@@ -7,15 +7,18 @@ alias ls='ls -lG'
 alias la='ls -AF'       # Compact view, show hidden
 alias ll='ls -al'
 alias l='ls -a'
-alias presto='cd ~/workspace/presto-doctor/prestoverify/'
-alias lp='cd ~/workspace/legalpad'
-alias novo='cd ~/workspace/legalpad/novo'
 
 # Access Airport
 alias airport='/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport'
 
 # Navigation
-alias personal='cd ~/workspace/personal'
+alias code='cd ~/workspace'
+alias presto='cd ~/workspace/presto-doctor/prestoverify/'
+alias lp='cd ~/workspace/legalpad'
+alias novo='cd ~/workspace/legalpad/novo'
+alias shiny='cd ~/workspace/shiny-planes'
+alias goat='cd ~/workspace/shiny-planes/the-goat'
+
 
 alias _="sudo"
 
